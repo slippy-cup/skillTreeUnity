@@ -105,6 +105,9 @@ Currently, the save functionality is not properly saving the state of skills, re
 4. **Reset**:
    - Use the `ResetSkillTreeProgress` method to reset the skill tree to its initial state.
 
+5. **Toggle**:
+   - Press the escape key to toggle the skill tree. 
+
 ---
 
 ## Conclusion
