@@ -12,9 +12,10 @@ The **Skill Tree Simple** package is a customizable skill tree system for Unity 
 The design workflow focuses on creating and configuring skill tree skills without requiring extensive coding. This section covers how to instantiate nodes, modify their values, and customize their presentation.
 
 ### Instantiating New Skills
-To add a new node to the skill tree:
+To add a new skill to the skill tree:
 1. Drag the skill prefab from the **prefab** folder and place within thhe skill tree. 
-2. Double click the skill to open it's **inspector**, then assign it's parent and children by dragging other skills into their respective areas. 
+2. Double click the skill to open it's **inspector**, then assign it's parent and children by dragging other skills into their respective areas.
+3. Then they are able to alter other properties of each individual skills.
 
 This process ensures that the new skill is properly integrated into the skill tree structure.
 
@@ -32,7 +33,7 @@ These values can be modified in the **Inspector** under the skill's script compo
 
 ---
 
-### Node Presentation
+### Skill Presentation
 The visual presentation of nodes can be customized by modifying the `Button` and `TextMeshProUGUI` components attached to each node. Specifically for the skills developers can alter the appearance by accessing the **skill prefab's inspector**. Since each node inherits from Unity's `Button` class, all customizable properties are available in the [Unity Button Documentation](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html).
 
 ---
